@@ -12,15 +12,23 @@
 
     <title>Document</title>
 </head>
-<body>
-    <div class="container text-center">
-        <h1>Weather App</h1>
-        <select name="" value="" class="w-50 text-center my-5" id="select">
-            <option value="">Select Countries</option>
-        </select>
-        <div class="users row g-3 justify-content-center">
+<body
+style="
+background-repeat: no-repeat;
+/* background-position: center;
+background-size: cover; */
+background-image: url(https://i0.wp.com/duvarkapla.com/wp-content/uploads/2020/02/DK9958-2-scaled.jpg?fit=2560%2C1920&ssl=1);
+height: 100vh;
+"
+>
 
-        </div>
+>
+    <div class="container text-center">
+        <h1 class="text-center text-success display-4 m-4 fw-bold ">COUNTRIES</h1>
+        <select name="" value="" class="w-50 text-dark text-center my-5 fw-bold  opacity-50 " id="select">
+            <option value="" class="select">Select Countries</option>
+        </select>
+        <div class="countries opacity-75 text-dark fw-bold"></div>
     </div>
  
     <script src="./app.js"></script>
